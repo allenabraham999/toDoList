@@ -1,0 +1,97 @@
+html {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: rgb(65, 101, 102);
+  padding-left: 500px;
+}
+
+.box1 {
+  border-radius: 36px;
+  text-align: center;
+  background: rgb(177, 209, 177);
+  width: 500px;
+  box-shadow: 5px 10px 18px #000000;
+}
+
+.box2 {
+  border-radius: 36px;
+  width: 472px;
+  max-width: 500px;
+  background: rgb(177, 209, 177);
+  box-shadow: 5px 10px 18px #000000;
+  padding: 18px;
+}
+.box3 {
+  border-radius: 36px;
+  width: 472px;
+  max-width: 500px;
+  background-color: rgb(65, 101, 102);
+  box-shadow: 5px 10px 18px #000000;
+  padding: 6px;
+  margin-left: 14px;
+  margin-top: 100px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.item {
+  display: inline-flex;
+  min-width: 450px;
+  border-radius: 36px;
+  text-align: center;
+  background-color: rgb(208, 209, 186);
+  line-height: 20px;
+  margin: 10px;
+}
+input:checked + p {
+  text-decoration: line-through;
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+input[type="checkbox"] {
+  background-color: crimson;
+  margin: 20px;
+}
+.add {
+  background-color: rgb(208, 209, 186);
+  width: 303px;
+  height: 45px;
+  border-radius: 36px;
+  margin-left: 60px;
+}
+
+.new {
+  background-color: rgb(25, 41, 54);
+  color: white;
+  text-align: center;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border-color: transparent;
+  background-color: rgb(208, 209, 186);
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+.plus {
+  max-width: fit-content;
+  max-height: max-content;
+  width: 10px;
+}
+.submission {
+  border-top: 20px;
+}
+footer {
+  margin-top: 50px;
+  margin-right: 500px;
+  text-align: center;
+}
